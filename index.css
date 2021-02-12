@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;}
+    
 
      .navbar{
         display: flex;
         align-items: center;
-        padding: 20px;
+        padding: 30px;
+        
     }
     nav{
         flex: 1;
@@ -36,6 +38,8 @@
         padding-right: 25px;
 
     }
+.header{
+    background: radial-gradient(#fff,#ffd6d6);
 
 
 
