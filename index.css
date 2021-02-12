@@ -2,16 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;}
-    
+    h1{
+        align-items: center;
+    }
 
      .navbar{
         display: flex;
         align-items: center;
-        padding: 30px;
+        padding: 40px;
         
     }
     nav{
-        flex: 1;
+        flex: 30;
         text-align: right;
     }
     nav ul{
@@ -21,7 +23,7 @@
     }
     nav ul li{ 
         display: inline-block;
-        margin-right: 20px;  
+        margin-right: 30px;  
     }
     a{
         text-decoration: none;
@@ -32,10 +34,10 @@
         color:black;
     }
     .container{
-        max-width: 1300px;
+        max-width: 1200px;
         margin:auto;
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
 
     }
     .row{
@@ -57,9 +59,73 @@
     .col-2 h1{
         font-size:50px;
         line-height: 60px;
-        margin:25px 0;
+        margin:40px 0;
 
     }
+    .btn{
+        display: inline-block;
+        background:deeppink;
+        color:#fff;
+        padding: 8px 30px;
+        margin: 30 px 0;
+        border-radius: 30 px;
+
+    }
+    .footer{
+        margin:70px 0
+        
+
+
+    }
+    .menu-icon{
+        width: 28px;
+        margin-left: 20px;
+        
+
+    }
+    
+   
+       ____________________
+       .single-product{
+           margin-top:80px;
+
+       }
+       .single-product .col-2 img{
+           padding: 0;
+       }
+       .single-product .col-2 img{
+        padding: 20;
+
+        }
+        .single-product .col-2 h{
+            margin: 100px 0;
+           font-size: 20;
+           font-weight: bold;
+           
+    }
+    .single-product select{
+        display: block;
+        padding: 10px;
+        margin-top: 20px;
+
+
+    }
+    .single-product input{
+        width: 30 px;
+        height: 40 px;
+        padding-left: 10px;
+        font-size: 20 px;
+        margin: 10;
+        border: 1px solid #ff523b;
+
+
+
+    }
+}
+
+
+    
+    
 }
 
 
