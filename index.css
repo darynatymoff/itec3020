@@ -1,9 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;}
+
+}
+    
+h1{
+    text-align: center;
+    display: inline-block
+    padding: 40px;
+   
     
 
+}
      .navbar{
         display: flex;
         align-items: center;
@@ -13,10 +21,12 @@
     nav{
         flex: 30;
         text-align: right;
+        
     }
     nav ul{
         display: inline-block;
         list-style-type: none;
+       
 
     }
     nav ul li{ 
@@ -97,7 +107,10 @@
    
        ____________________
        .single-product{
-           margin-top:80px;
+           margin-top:80px; 
+           animation: anim 55s linear infinite{
+            
+           };
 
        }
        .single-product .col-2 img{
@@ -131,14 +144,8 @@
 
 
     }
-    .categories{
-
-    }
-    .similar-product{
-        ;
-       
-        
-    }
+    
+    
 }
 
 
@@ -150,5 +157,7 @@
 
 
 }
-    }
+
+    
+}
 }
